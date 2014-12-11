@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PomPom Home</title>
+    <title>Boostr Home</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 800
+        });
+    });
+  </script>
 </head>    
 <body>
     <article class="page">
-        <header>Welcome to PomPom!</header>
+        <header>
+            <img src="boostr.png" class="big">
+            <span class="title">
+                Welcome to <span class="boostr">Boostr</span>.<br>
+                <span class="sub-hero">&mdash; a simple fundrasing solution &mdash;</span></span>
+            
+        </header>
+        <section class="red content">
+            <span class="subtitle">What's Boostr?</span>
+            <br>
+            <div>Boostr connects highschool STEM teams with potential sponsors.
+                It's a way for engineering and science people to easily fundraise, and tell their stories.
+                <br>
+                Everyone here at Boostr is on either our school's robotics team, science olympiad team, a VEX team, or science club. We're passionate about building robots, competing, and doing science, and fundraising is an integral part of making that feasible. By using Boostr, teams have raised <span class="raised">$<span class="counter">200</span></span>M in support. We'll connect you with your community, so that you can do what you love, instead of fumbling for funding.     
+            </div>  
+        </section>
+        
+        <section class="content">
+            <span class="subtitle">Features!</span>
+            <br>
+            <div><!--PUT THE FEATURES SHIT HERE--></div>
+        </section>
+        
+        <section class="red content">
+            <span class="subtitle">Interested?</span>
+            <br>
+            <span>Tell me your email, and I'll get back to you within a day!</span>
+            <div>example</div>
+        </section>
     </article>
+    <footer><span>Made in America. Powered by <a href="http://www.chartjs.org">chartjs</a>, and <a href="https://github.com/bfintal/Counter-Up">counter-up</a>.</span></footer>
 </body>
 </html>
