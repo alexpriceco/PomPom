@@ -114,7 +114,7 @@ header {
     font-size: 1.2em;
 }
 .half {
-    width:48%;
+    width:42%;
     display: inline-block;
     vertical-align: middle;
     min-width:300px;
@@ -139,4 +139,7 @@ img {
 }
 .center {
     text-align: center;
+}
+.left {
+    text-align: left;
 }
