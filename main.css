@@ -143,3 +143,17 @@ img {
 .left {
     text-align: left;
 }
+form {
+    font-size: 0;
+}
+input {
+    padding:2px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    margin:0;
+    border:0;
+}
+.input-holder {
+    padding:0;
+}

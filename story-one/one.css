@@ -1,0 +1,58 @@
+/*  COLORS  */ 
+/*
+red (r) : FF5748  255,87,72
+red (l) : FF6C5F  255,108,95
+green (r): 0FB257 15,178,87
+green (l): 48FF99 72,255,153
+white    : F8F8F8 248,248,248
+grey (l) : E3E3E3 227,227,227
+grey (d) : 424242 66,66,66
+black    : 212121 33,33,33
+*/
+
+* {
+    padding:0;
+    margin: 0;
+}
+html {
+    font-family: 'Open Sans', "Helvetica", sans-serif;
+    color: 212121; 
+    background-color: #f8f8f8;
+    height:100%;
+    width:100%;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #FF5748;
+}
+a:hover {
+    color:#FF6C5F;
+}
+.one {
+    background-image: src();
+    background-color: #232323;
+    color: #F8F8F8;
+    padding: 16vh 20vw;
+}
+.two {
+    background-image: src();
+    background-color: #F8F8F8;
+    color: #424242;
+    padding: 16vh 20vw;
+}
+.title {
+    font-size: 2.4em;
+}
+.desc {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+footer {
+    background-color: #E3E3E3;
+    color: #919191  ;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding:4vh;
+    text-align: center;
+}
+    
